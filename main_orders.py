@@ -5,7 +5,7 @@ from table_data import *
 import os
 
 # Connect to the SQLite database
-dir_path = 'SQL practice'
+dir_path = 'SQL_Analyst'
 db_path = os.path.join(dir_path, 'orders.db')
 conn = sqlite3.connect(db_path)
 cursor = conn.cursor()

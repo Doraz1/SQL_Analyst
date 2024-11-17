@@ -3,7 +3,7 @@ from table_data import *
 import os
 
 # Connect to SQLite database (or create it if it doesn't exist)
-dir_path = 'SQL practice'
+dir_path = 'SQL_Analyst'
 db_path = os.path.join(dir_path, 'shoes.db')
 conn = sqlite3.connect(db_path)
 create_table = False
@@ -124,7 +124,7 @@ if __name__ == '__main__':
             insert_to_table('Shoes', *shoe)
         
     # Fetch and print all shoes
-    # fetched_shoes = get_all_shoes() 
+    fetched_shoes = get_all_shoes() 
     # fetched_shoes = get_all_shoes(order_col='Desc', order_type='ASC') 
 
     # fetched_shoes = get_shoes_by_brand('Vance')
@@ -135,7 +135,7 @@ if __name__ == '__main__':
     # fetched_shoes = get_shoes_by_brand_wildcard('N%')
     
     # fetched_shoes = get_shoes_using_operator_alias()
-    fetched_shoes = get_shoes_grouped()
+    # fetched_shoes = get_shoes_grouped()
 
 
     for shoe in fetched_shoes:

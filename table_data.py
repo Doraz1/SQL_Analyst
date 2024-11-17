@@ -18,8 +18,8 @@ shoes_data = [
         ('S0017', 'Lacoste', 'Casual', 'Green', 110.00, 'Premium casual shoes'),
         ('S0018', 'Hoka', 'Running', 'Blue', 130.00, 'Ultra-cushioned running shoes'),
         ('S0019', 'Adidas', 'Running', 'Black', 160.00, 'Innovative running shoes'),
-        ('S0020', 'Saucony', 'Running', 'Orange', 115.00, 'Lightweight running shoes')
-        ('S0020', 'Adidas', 'Hiking', 'Brown', 125.00, 'Hiking shoes')
+        ('S0020', 'Saucony', 'Running', 'Orange', 115.00, 'Lightweight running shoes'),
+        ('S0021', 'Adidas', 'Hiking', 'Brown', 125.00, 'Hiking shoes')
     ]
 
 
